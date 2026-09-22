@@ -1,0 +1,70 @@
+.buttons {
+    background-color: rgb(181, 90, 224, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    height: 100px;
+}
+
+.buttons a{
+    width: 150%;
+    height: 40px;
+
+
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    background-color: rgb(181, 90, 224);
+    border: 3px solid black;
+    border-radius: 15px;
+
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+}
+
+.inhoud_buttons {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+}
+
+/* De buttons */
+.inhoud_buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 70px;
+
+    background-color: rgb(181, 90, 224);
+    border: 3px solid black;
+    border-radius: 15px;
+
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Als je met de muis over de button gaat */
+.inhoud_buttons a:hover,
+.buttons a:hover{
+    background-color: rgb(160, 75, 205);
+    transform: scale(1.05);
+}
